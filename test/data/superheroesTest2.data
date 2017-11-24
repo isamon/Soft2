@@ -1,0 +1,141 @@
+#---------------------------------------------------------
+# Superhéroes
+#---------------------------------------------------------
+
+total.heroes = 7
+
+#---------------------------------------------------------
+# Héroe 1
+#---------------------------------------------------------
+
+heroe1.identidadPublica = Silver Surfer
+heroe1.identidadSecreta = Norrin Radd
+heroe1.anhoCreacion = 1983
+heroe1.creador = Jack Kirby y Stan Lee
+heroe1.nivelFuerza = 100
+heroe1.imagen = .//data//imagenes//silverSurfer.jpg
+
+heroe1.numPoderes = 3
+heroe1.poder1 = Fuerza Extema
+heroe1.poder2 = Invulnerabilidad
+heroe1.poder3 = Poder Cosmico
+
+heroe1.numHabilidades = 1
+heroe1.habilidad1 = Cientifico
+
+#---------------------------------------------------------
+# Héroe 2
+#---------------------------------------------------------
+
+heroe2.identidadPublica = Daredevil
+heroe2.identidadSecreta = Matthew Murdock
+heroe2.anhoCreacion = 1964
+heroe2.creador = Stan Lee y Bill Everett
+heroe2.nivelFuerza = 60
+heroe2.imagen = .//data//imagenes//daredevil.jpg
+
+heroe2.numPoderes = 1
+heroe2.poder1 = Ecolocalización
+heroe2.poder2 = Sentidos aumentados
+
+heroe2.numHabilidades = 1
+heroe2.habilidad1 = Carece de miedo
+
+#---------------------------------------------------------
+# Héroe 3
+#---------------------------------------------------------
+
+heroe3.identidadPublica = Spider-Man
+heroe3.identidadSecreta = Peter Parker
+heroe3.anhoCreacion = 1962
+heroe3.creador = Stan Lee y Steve Ditko
+heroe3.nivelFuerza = 80
+heroe3.imagen = .//data//imagenes//spiderMan.jpg
+
+heroe3.numPoderes = 3
+heroe3.poder1 = Super Fuerza
+heroe3.poder2 = Escalar
+heroe3.poder3 = Telaraña
+
+
+heroe3.numHabilidades = 3
+heroe3.habilidad1 = Cientifico
+heroe3.habilidad2 = Inventor
+heroe3.habilidad3 = Fotografo
+
+#---------------------------------------------------------
+# Héroe 4
+#---------------------------------------------------------
+
+heroe4.identidadPublica = Capitán América
+heroe4.identidadSecreta = Steven Rogers
+heroe4.anhoCreacion = 1941
+heroe4.creador = Jack Kirby y Joe Simon
+heroe4.nivelFuerza = 60
+heroe4.imagen = .//data//imagenes//capitanAmerica.jpg
+
+heroe4.numPoderes = 2
+heroe4.poder1 = Cuerpo Perfecto
+heroe4.poder2 = Super Fuerza
+
+heroe4.numHabilidades = 2
+heroe4.habilidad1 = Artes Marciales
+heroe4.habilidad2 = Judo
+
+
+#---------------------------------------------------------
+# Héroe 5
+#---------------------------------------------------------
+
+heroe5.identidadPublica = Iron Man
+heroe5.identidadSecreta = Anthony Stark
+heroe5.anhoCreacion = 1963
+heroe5.creador = Stan Lee y Jack Kirby
+heroe5.nivelFuerza = 70
+heroe5.imagen = .//data//imagenes//ironMan.jpg
+
+heroe5.numPoderes = 2
+heroe5.poder1 = Armadura de hierro
+heroe5.poder2 = Gran Fuerza
+
+heroe5.numHabilidades = 1
+heroe5.habilidad1 = Genio
+
+
+#---------------------------------------------------------
+# Héroe 6
+#---------------------------------------------------------
+
+heroe6.identidadPublica = Wolverine
+heroe6.identidadSecreta = James Howlett
+heroe6.anhoCreacion = 1974
+heroe6.creador = Len Wein y Herb Trimpe
+heroe6.nivelFuerza = 70
+heroe6.imagen = .//data//imagenes//wolverine.jpg
+
+heroe6.numPoderes = 2
+heroe6.poder1 = Regenerarse rápido
+heroe6.poder2 = Sentidos de lobo
+
+heroe6.numHabilidades = 1
+heroe6.habilidad1 = Luchador
+
+
+#---------------------------------------------------------
+# Héroe 7
+#---------------------------------------------------------
+
+heroe7.identidadPublica = Hulk
+heroe7.identidadSecreta = Bruce Banner
+heroe7.anhoCreacion = 1962
+heroe7.creador = Stan Lee y Jack Kirby
+heroe7.nivelFuerza = 86
+heroe7.imagen = .//data//imagenes//hulk.jpg
+
+heroe7.numPoderes = 2
+heroe7.poder1 = Super Fuerza
+heroe7.poder2 = Onda de choque
+
+heroe7.numHabilidades = 1
+heroe7.habilidad1 = Varias personalidades
+

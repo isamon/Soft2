@@ -1,0 +1,101 @@
+#---------------------------------------------------------
+# Superhéroes
+#---------------------------------------------------------
+
+total.heroes = 7
+
+#---------------------------------------------------------
+# Héroe 1
+#---------------------------------------------------------
+
+heroe1.identidadPublica = 1
+heroe1.identidadSecreta = 1
+heroe1.anhoCreacion = 1
+heroe1.creador = 1
+heroe1.nivelFuerza = 1
+heroe1.imagen = 1
+heroe1.numPoderes = 0
+heroe1.numHabilidades = 0
+
+
+#---------------------------------------------------------
+# Héroe 2
+#---------------------------------------------------------
+
+heroe2.identidadPublica = 2
+heroe2.identidadSecreta = 2
+heroe2.anhoCreacion = 2
+heroe2.creador = 2
+heroe2.nivelFuerza = 2
+heroe2.imagen = 2
+heroe2.numPoderes = 0
+heroe2.numHabilidades = 0
+
+#---------------------------------------------------------
+# Héroe 3
+#---------------------------------------------------------
+
+heroe3.identidadPublica = 3
+heroe3.identidadSecreta = 3
+heroe3.anhoCreacion = 3
+heroe3.creador = 3
+heroe3.nivelFuerza = 3
+heroe3.imagen = 3
+heroe3.numPoderes = 0
+heroe3.numHabilidades = 0
+
+#---------------------------------------------------------
+# Héroe 4
+#---------------------------------------------------------
+
+heroe4.identidadPublica = 4
+heroe4.identidadSecreta = 4
+heroe4.anhoCreacion = 4
+heroe4.creador = 4
+heroe4.nivelFuerza = 4
+heroe4.imagen = 4
+heroe4.numPoderes = 0
+heroe4.numHabilidades = 0
+
+
+#---------------------------------------------------------
+# Héroe 5
+#---------------------------------------------------------
+
+heroe5.identidadPublica = 5
+heroe5.identidadSecreta = 5
+heroe5.anhoCreacion = 5
+heroe5.creador = 5
+heroe5.nivelFuerza = 5
+heroe5.imagen = 5
+heroe5.numPoderes = 0
+heroe5.numHabilidades = 0
+
+
+#---------------------------------------------------------
+# Héroe 6
+#---------------------------------------------------------
+
+heroe6.identidadPublica = 6
+heroe6.identidadSecreta = 6
+heroe6.anhoCreacion = 6
+heroe6.creador = 6
+heroe6.nivelFuerza = 6
+heroe6.imagen = 6
+heroe6.numPoderes = 0
+heroe6.numHabilidades = 0
+
+
+#---------------------------------------------------------
+# Héroe 7
+#---------------------------------------------------------
+
+heroe7.identidadPublica = 7
+heroe7.identidadSecreta = 7
+heroe7.anhoCreacion = 7
+heroe7.creador = 7
+heroe7.nivelFuerza = 7
+heroe7.imagen = 7
+heroe7.numPoderes = 0
+heroe7.numHabilidades = 0
+
