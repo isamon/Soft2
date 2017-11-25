@@ -1,13 +1,13 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id: PanelInfoSuperheroe.java,v 1.3 2008/01/14 20:42:41 camil-ji Exp $
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogotï¿½ - Colombia)
+ * Departamento de Ingenierï¿½a de Sistemas y Computaciï¿½n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
  * Ejercicio: n7_comics
- * Autor: Carlos Andrés Vega - 17-sep-2007
+ * Autor: Carlos Andrï¿½s Vega - 17-sep-2007
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -32,7 +32,7 @@ import javax.swing.border.TitledBorder;
 import uniandes.cupi2.comics.mundo.SuperHeroe;
 
 /**
- * Panel que muestra la información de un Superhéroe
+ * Panel que muestra la informaciï¿½n de un Superhï¿½roe
  * 
  */
 public class PanelInfoSuperheroe extends JPanel
@@ -43,22 +43,22 @@ public class PanelInfoSuperheroe extends JPanel
     // -----------------------------------------------------------------
 
     /**
-     * Panel que contiene la imagen del superhéroe
+     * Panel que contiene la imagen del superhï¿½roe
      */
     private JPanel panelImagen;
 
     /**
-     * Panel que contiene la información del superhéroe
+     * Panel que contiene la informaciï¿½n del superhï¿½roe
      */
     private JPanel panelInformacionSuperheroe;
 
     /**
-     * Etiqueta que contiene la imagen del superhéroe
+     * Etiqueta que contiene la imagen del superhï¿½roe
      */
     private JLabel labelImagen;
 
     /**
-     * Etiqueta identidad pública
+     * Etiqueta identidad pï¿½blica
      */
     private JLabel labelIdentidadPublica;
 
@@ -68,7 +68,7 @@ public class PanelInfoSuperheroe extends JPanel
     private JLabel labelIdentidadSecreta;
 
     /**
-     * Etiqueta Año de creación
+     * Etiqueta Aï¿½o de creaciï¿½n
      */
     private JLabel labelAnhoCreacion;
 
@@ -93,37 +93,37 @@ public class PanelInfoSuperheroe extends JPanel
     private JLabel labelHabilidades;
 
     /**
-     * Etiqueta con la identidad pública del superhéroe
+     * Etiqueta con la identidad pï¿½blica del superhï¿½roe
      */
     private JLabel labelIdentidadPublicaSuperheroe;
 
     /**
-     * Etiqueta con la identidad secreta del superhéroe
+     * Etiqueta con la identidad secreta del superhï¿½roe
      */
     private JLabel labelIdentidadSecretaSuperheroe;
 
     /**
-     * Etiqueta con el año de creación del superhéroe
+     * Etiqueta con el aï¿½o de creaciï¿½n del superhï¿½roe
      */
     private JLabel labelAnhoCreacionSuperheroe;
 
     /**
-     * Etiqueta con el nombre del creador del superhéroe
+     * Etiqueta con el nombre del creador del superhï¿½roe
      */
     private JLabel labelCreadorSuperheroe;
 
     /**
-     * Etiqueta con el nivel de fuerza del superhéroe
+     * Etiqueta con el nivel de fuerza del superhï¿½roe
      */
     private JLabel labelNivelFuerzaSuperheroe;
 
     /**
-     * Panel con los poderes del superhéroe
+     * Panel con los poderes del superhï¿½roe
      */
     private JPanel panelPoderes;
 
     /**
-     * Panel con las habilidades del superhéroe
+     * Panel con las habilidades del superhï¿½roe
      */
     private JPanel panelHabilidades;
 
@@ -132,12 +132,12 @@ public class PanelInfoSuperheroe extends JPanel
     // -----------------------------------------------------------------
 
     /**
-     * Crea el panel para la visualización de la información de un Superhéroe
+     * Crea el panel para la visualizaciï¿½n de la informaciï¿½n de un Superhï¿½roe
      */
     public PanelInfoSuperheroe( )
     {
         setLayout( new BorderLayout( ) );
-        setBorder( new TitledBorder( "Información SuperHéroe" ) );
+        setBorder( new TitledBorder( "Informaciï¿½n SuperHï¿½roe" ) );
         setBackground( Color.WHITE );
 
         panelImagen = new JPanel( );
@@ -152,7 +152,7 @@ public class PanelInfoSuperheroe extends JPanel
     }
 
     // -----------------------------------------------------------------
-    // Métodos
+    // Mï¿½todos
     // -----------------------------------------------------------------
 
     /**
@@ -170,7 +170,7 @@ public class PanelInfoSuperheroe extends JPanel
     }
 
     /**
-     * Inicializa el panel que contiene la información del superhéroe
+     * Inicializa el panel que contiene la informaciï¿½n del superhï¿½roe
      */
     private void inicializarPanelInformacionSuperheroe( )
     {
@@ -179,9 +179,9 @@ public class PanelInfoSuperheroe extends JPanel
         Color gris = new Color( 128, 128, 128 );
 
         panelInformacionSuperheroe.setLayout( layout );
-        panelInformacionSuperheroe.setBackground( Color.WHITE );
+        panelInformacionSuperheroe.setBackground( Color.BLUE );
 
-        labelIdentidadPublica = new JLabel( "Identidad Pública: " );
+        labelIdentidadPublica = new JLabel( "Identidad Pï¿½blica: " );
         labelIdentidadPublica.setForeground( gris );
         panelInformacionSuperheroe.add( labelIdentidadPublica );
 
@@ -195,7 +195,7 @@ public class PanelInfoSuperheroe extends JPanel
         labelIdentidadSecretaSuperheroe = new JLabel( );
         panelInformacionSuperheroe.add( labelIdentidadSecretaSuperheroe );
 
-        labelAnhoCreacion = new JLabel( "Año de creación: " );
+        labelAnhoCreacion = new JLabel( "AÃ±o de creaciÃ³n: " );
         labelAnhoCreacion.setForeground( gris );
         panelInformacionSuperheroe.add( labelAnhoCreacion );
 
@@ -234,8 +234,8 @@ public class PanelInfoSuperheroe extends JPanel
     }
 
     /**
-     * Muestra la información del superhéroe dado por parámetro
-     * @param heroe Superheroe del cual se va a mostrar la información
+     * Muestra la informaciï¿½n del superhï¿½roe dado por parï¿½metro
+     * @param heroe Superheroe del cual se va a mostrar la informaciï¿½n
      */
     public void actualizar( SuperHeroe heroe )
     {
@@ -273,7 +273,7 @@ public class PanelInfoSuperheroe extends JPanel
         catch( IOException e )
         {
             labelImagen.setIcon( null );
-            JOptionPane.showMessageDialog( this, "Error al cargar la imagen del superhéroe " + heroe.darRutaImagen( ), "Error", JOptionPane.ERROR_MESSAGE );
+            JOptionPane.showMessageDialog( this, "Error al cargar la imagen del superhï¿½roe " + heroe.darRutaImagen( ), "Error", JOptionPane.ERROR_MESSAGE );
         }
     }
 }

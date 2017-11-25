@@ -1,13 +1,13 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * $Id: InterfazComics.java,v 1.5 2008/01/19 00:56:00 carl-veg Exp $
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogotï¿½ - Colombia)
+ * Departamento de Ingenierï¿½a de Sistemas y Computaciï¿½n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
  * Ejercicio: n7_comics
- * Autor: Carlos Andrés Vega - 17-sep-2007
+ * Autor: Carlos Andrï¿½s Vega - 17-sep-2007
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
@@ -27,7 +27,7 @@ import uniandes.cupi2.comics.mundo.Comics;
 import uniandes.cupi2.comics.mundo.SuperHeroe;
 
 /**
- * Esta es la ventana principal de la aplicación.
+ * Esta es la ventana principal de la aplicaciï¿½n.
  */
 public class InterfazComics extends JFrame
 {
@@ -64,17 +64,17 @@ public class InterfazComics extends JFrame
     private PanelImagen panelImagen;
 
     /**
-     * Panel con la lista de superhéroes
+     * Panel con la lista de superhï¿½roes
      */
     private PanelSuperheroes panelSuperheroes;
 
     /**
-     * Panel para visualizar la información de un superhéroe
+     * Panel para visualizar la informaciï¿½n de un superhï¿½roe
      */
     private PanelInfoSuperheroe panelInfoSuperheroe;
 
     /**
-     * Panel con las opciones de la aplicación
+     * Panel con las opciones de la aplicaciï¿½n
      */
     private PanelOpciones panelOpciones;
 
@@ -83,7 +83,7 @@ public class InterfazComics extends JFrame
     // -----------------------------------------------------------------
 
     /**
-     * Constructor de la ventana principal de la aplicación
+     * Constructor de la ventana principal de la aplicaciï¿½n
      */
     public InterfazComics( )
     {
@@ -99,7 +99,7 @@ public class InterfazComics extends JFrame
             setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
             setTitle( "Comics Database" );
 
-            // Creación de los paneles aquí
+            // Creaciï¿½n de los paneles aquï¿½
             panelExtension = new PanelExtension( this );
             add( panelExtension, BorderLayout.SOUTH );
 
@@ -128,12 +128,12 @@ public class InterfazComics extends JFrame
     }
 
     // -----------------------------------------------------------------
-    // Métodos
+    // Mï¿½todos
     // -----------------------------------------------------------------
 
     /**
-     * Método para actualizar el panel que muestra la información de los superhéroes
-     * @param heroe Héroe del cual se va a obtener la información
+     * Mï¿½todo para actualizar el panel que muestra la informaciï¿½n de los superhï¿½roes
+     * @param heroe Hï¿½roe del cual se va a obtener la informaciï¿½n
      */
     public void actualizarInfoSuperheroe( SuperHeroe heroe )
     {
@@ -141,11 +141,11 @@ public class InterfazComics extends JFrame
     }
 
     /**
-     * Método para buscar un superhéroe por identidad secreta utilizando el método binario
+     * Mï¿½todo para buscar un superhï¿½roe por identidad secreta utilizando el mï¿½todo binario
      */
     public void buscarSuperheroeBinarioIdentidadPublica( )
     {
-        String idPublica = JOptionPane.showInputDialog( this, "Identidad Secreta" );
+        String idPublica = JOptionPane.showInputDialog( this, "Identidad Publica" );
         if( idPublica != null )
         {
             comics.ordenarPorIdentidadPublica( );
@@ -154,13 +154,13 @@ public class InterfazComics extends JFrame
             if( pos != -1 )
                 panelSuperheroes.seleccionar( pos );
             else
-                JOptionPane.showMessageDialog( this, "No se encontró algún superhéroe con la identidad dada.", "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+                JOptionPane.showMessageDialog( this, "No se encontrï¿½ algï¿½n superhï¿½roe con la identidad dada.", "Atencion", JOptionPane.INFORMATION_MESSAGE );
         }
 
     }
     
     /**
-     * Método para buscar un superhéroe por identidad secreta
+     * Mï¿½todo para buscar un superhï¿½roe por identidad secreta
      */
     public void buscarSuperheroePorIdentidadSecreta( )
     {
@@ -171,13 +171,13 @@ public class InterfazComics extends JFrame
             if( pos != -1 )
                 panelSuperheroes.seleccionar( pos );
             else
-                JOptionPane.showMessageDialog( this, "No se encontró algún superhéroe con la identidad dada.", "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+                JOptionPane.showMessageDialog( this, "No se encontrï¿½ algï¿½n superhï¿½roe con la identidad dada.", "Respuesta", JOptionPane.INFORMATION_MESSAGE );
         }
 
     }
 
     /**
-     * Método para buscar el superhéroe más antiguo
+     * Mï¿½todo para buscar el superhï¿½roe mï¿½s antiguo
      */
     public void buscarSuperheroeMasAntiguo( )
     {
@@ -185,11 +185,11 @@ public class InterfazComics extends JFrame
         if( pos != -1 )
             panelSuperheroes.seleccionar( pos );
         else
-            JOptionPane.showMessageDialog( this, "No se encontró el superhéroe más antiguo.", "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+            JOptionPane.showMessageDialog( this, "No se encontrï¿½ el superhï¿½roe mï¿½s antiguo.", "Respuesta", JOptionPane.INFORMATION_MESSAGE );
     }
 
     /**
-     * Método para buscar el superhéroe más fuerte
+     * Mï¿½todo para buscar el superhï¿½roe mï¿½s fuerte
      */
     public void buscarSuperheroeMasFuerte( )
     {
@@ -197,11 +197,11 @@ public class InterfazComics extends JFrame
         if( pos != -1 )
             panelSuperheroes.seleccionar( pos );
         else
-            JOptionPane.showMessageDialog( this, "No se encontró el superhéroe más fuerte.", "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+            JOptionPane.showMessageDialog( this, "No se encontrï¿½ el superhï¿½roe mï¿½s fuerte.", "Respuesta", JOptionPane.INFORMATION_MESSAGE );
     }
 
     /**
-     * Método para visualizar la lista de superhéroes ordenada por año de creación ascendentemente
+     * Mï¿½todo para visualizar la lista de superhï¿½roes ordenada por aï¿½o de creaciï¿½n ascendentemente
      */
     public void ordenarPorAnhoCreacion( )
     {
@@ -210,7 +210,7 @@ public class InterfazComics extends JFrame
     }
 
     /**
-     * Método para visualizar la lista de superhéroes ordenada por el nombre del creador de manera ascendente
+     * Mï¿½todo para visualizar la lista de superhï¿½roes ordenada por el nombre del creador de manera ascendente
      */
     public void ordenarPorCreador( )
     {
@@ -219,7 +219,7 @@ public class InterfazComics extends JFrame
     }
 
     /**
-     * Método para visualizar la lista de superhéroes ordenada por el nivel de fuerza de manera ascendente
+     * Mï¿½todo para visualizar la lista de superhï¿½roes ordenada por el nivel de fuerza de manera ascendente
      */
     public void ordenarPorNivelFuerza( )
     {
@@ -228,7 +228,7 @@ public class InterfazComics extends JFrame
     }
 
     /**
-     * Método para mostrar el dialogo para ingresar un nuevo superhéroe
+     * Mï¿½todo para mostrar el dialogo para ingresar un nuevo superhï¿½roe
      */
     public void mostrarDialogoIngresarSuperheroe( )
     {
@@ -237,16 +237,16 @@ public class InterfazComics extends JFrame
     }
 
     /**
-     * Método para ingresar un superhéroe
-     * @param identidadPublica Identidad pública del superhéroe
-     * @param identidadSecreta Identidad secreta del superhéroe
-     * @param anhoCreacion Año de creación del superhéroe
+     * Mï¿½todo para ingresar un superhï¿½roe
+     * @param identidadPublica Identidad pï¿½blica del superhï¿½roe
+     * @param identidadSecreta Identidad secreta del superhï¿½roe
+     * @param anhoCreacion Aï¿½o de creaciï¿½n del superhï¿½roe
      * @param creador Nombre del creador
      * @param nivelFuerza Nivel de fuerza
-     * @param poderes poderes del superhéroe separados por comas
-     * @param habilidades habilidades del superhéroe separadas por comas
-     * @param rutaImagen Ruta a la imagen del superhéroe
-     * @return true si el superhéroe fue ingresado, false de lo contrario
+     * @param poderes poderes del superhï¿½roe separados por comas
+     * @param habilidades habilidades del superhï¿½roe separadas por comas
+     * @param rutaImagen Ruta a la imagen del superhï¿½roe
+     * @return true si el superhï¿½roe fue ingresado, false de lo contrario
      */
     public boolean ingresarSuperheroe( String identidadPublica, String identidadSecreta, short anhoCreacion, String creador, byte nivelFuerza, String poderes, String habilidades, String rutaImagen )
     {
@@ -268,7 +268,7 @@ public class InterfazComics extends JFrame
     }
 
     /**
-     * Método para cargar los superhéroes desde un archivo
+     * Mï¿½todo para cargar los superhï¿½roes desde un archivo
      * @param ruta Ruta del archivo
      * @throws Exception Si ocurre un error al cargar el archivo
      */
@@ -278,7 +278,7 @@ public class InterfazComics extends JFrame
         Properties propiedades = new Properties( );
         propiedades.load( fis );
 
-        // Cargar los superhéroes
+        // Cargar los superhï¿½roes
         String nIdentidadSecreta, nIdentidadPublica, nCreador, nRutaImagen;
         short nAnhoCreacion;
         byte nNivelFuerza;
@@ -318,11 +318,11 @@ public class InterfazComics extends JFrame
     }
 
     // -----------------------------------------------------------------
-    // Puntos de Extensión
+    // Puntos de Extensiï¿½n
     // -----------------------------------------------------------------
 
     /**
-     * Método para la extensión 1
+     * Mï¿½todo para la extensiï¿½n 1
      */
     public void reqFuncOpcion1( )
     {
@@ -331,7 +331,7 @@ public class InterfazComics extends JFrame
     }
 
     /**
-     * Método para la extensión 2
+     * Mï¿½todo para la extensiï¿½n 2
      */
     public void reqFuncOpcion2( )
     {
@@ -344,7 +344,7 @@ public class InterfazComics extends JFrame
     // -----------------------------------------------------------------
 
     /**
-     * Este método ejecuta la aplicación, creando una nueva interfaz
+     * Este mï¿½todo ejecuta la aplicaciï¿½n, creando una nueva interfaz
      * @param args
      */
     public static void main( String[] args )
